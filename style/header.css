@@ -1,14 +1,9 @@
-:root {
-    --primary-color: #12619c;
-    --secondary-color: #f8f9fa; 
-}
-
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #f8f9fa;
+    background-color: var(--secondary-color);
     position: relative;
     z-index: 2;
 }
@@ -35,6 +30,7 @@
 .logo-title {
     display: flex;
     align-items: center;
+    font-family: "PT Sans Narrow", sans-serif;
 }
 
 .logo {
@@ -49,7 +45,8 @@
 
 .nav-links {
     display: flex;
-    gap: 20px;
+    gap: 33px;
+    font-family: "PT Sans Narrow", sans-serif;
 }
 
 .nav-links li {
